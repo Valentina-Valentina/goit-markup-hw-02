@@ -31,14 +31,12 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.footer-logo {
-  color: #f4f4fd;
-}
-.logo-item {
+
+.menu-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -82,9 +80,11 @@ body {
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
+  background: #2e2f42;
 }
 
 .modal-btn {
+  font-family: "Roboto", sans-serif;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -114,6 +114,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .title-name {
   font-weight: 500;
@@ -126,6 +129,28 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+/*-- Footer --*/
+
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #2e2f42;
 }
 
 /*-- Portfolio --*/
@@ -146,13 +171,4 @@ body {
 .filters-button:active {
   background: #404bbf;
   color: #ffffff;
-}
-
-/*-- Footer --*/
-.footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
 }
