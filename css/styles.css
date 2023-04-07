@@ -7,10 +7,9 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
-  font-style: none;
-  letter-spacing: 0.02em;
+
   color: #434455;
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -39,7 +38,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .menu-link {
@@ -51,7 +50,8 @@ body {
 
 .link:hover,
 .link:focus {
-  color: var(--accent-color);
+  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /*-- Address --*/
@@ -62,7 +62,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
-  font-style: none;
 }
 .contact {
   font-style: normal;
@@ -74,6 +73,10 @@ body {
 /* ===============Header================== */
 
 /* ===============Hero section============ */
+
+.hero {
+  background-color: #f4f4fd;
+}
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -85,7 +88,6 @@ body {
 
 .modal-btn {
   font-family: "Roboto", sans-serif;
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -106,7 +108,9 @@ body {
 /* ===================Hero section============ */
 
 /* ===========Objectives section============= */
-
+.section {
+  background-color: #ffffff;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -115,8 +119,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  background-color: #f4f4fd;
-  background-color: #ffffff;
 }
 .title-name {
   font-weight: 500;
@@ -131,7 +133,9 @@ body {
   letter-spacing: 0.02em;
 }
 /*-- Footer --*/
-
+.page-footer {
+  background-color: #2e2f42;
+}
 .footer-logo {
   font-family: "Raleway";
   font-style: normal;
@@ -150,7 +154,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background-color: #2e2f42;
 }
 
 /*-- Portfolio --*/
