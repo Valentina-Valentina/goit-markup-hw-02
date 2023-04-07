@@ -56,8 +56,8 @@ body {
 
 /*-- Address --*/
 
-.menu-item > .menu-email,
-.menu-item > .menu-number-phone {
+.menu-item > .email,
+.menu-item > .number-phone {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -186,4 +186,18 @@ body {
 .filters-button:active {
   background: #404bbf;
   color: #ffffff;
+}
+.products-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.market-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
