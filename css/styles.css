@@ -69,7 +69,7 @@ body {
 }
 .contact:hover,
 .contact:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 /* ===============Header================== */
 
@@ -110,10 +110,10 @@ body {
 /* ===================Hero section============ */
 
 /* ===========Objectives section============= */
-.section-title .team {
+.section {
   background-color: #ffffff;
-  background-color: #f4f4fd;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -136,6 +136,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 /*-- Footer --*/
@@ -153,7 +154,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  color: #f4f4fd;
 }
 .footer-text {
   font-weight: 400;
@@ -164,7 +164,11 @@ body {
 }
 
 /*-- Portfolio --*/
-.filters-button {
+
+.page-main {
+  background-color: #ffffff;
+}
+* .filters-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
