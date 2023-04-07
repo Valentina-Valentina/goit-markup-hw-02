@@ -52,13 +52,12 @@ body {
 .link:hover,
 .link:focus {
   color: #404bbf;
-  color: #4d5ae5;
 }
 
 /*-- Address --*/
 
-.menu-item > .address-email,
-.menu-item > .address-number-phone {
+.menu-item > .menu-email,
+.menu-item > .menu-number-phone {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -111,7 +110,7 @@ body {
 /* ===================Hero section============ */
 
 /* ===========Objectives section============= */
-.section {
+.section-title .team {
   background-color: #ffffff;
   background-color: #f4f4fd;
 }
@@ -130,6 +129,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .features-text {
   font-weight: 400;
@@ -153,7 +153,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  color: var(--accent-color);
+  color: #f4f4fd;
 }
 .footer-text {
   font-weight: 400;
