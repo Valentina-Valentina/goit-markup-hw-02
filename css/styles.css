@@ -57,7 +57,7 @@ body {
 /*-- Address --*/
 
 .address-item > .email,
-.address-item > .number-phone {
+.address-item > .phone-number {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
