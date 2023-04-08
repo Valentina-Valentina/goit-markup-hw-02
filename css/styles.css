@@ -141,7 +141,9 @@ body {
 .team-section {
   background-color: #f4f4fd;
 }
-
+.team-work {
+  background-color: #ffffff;
+}
 /*-- Footer --*/
 .page-footer {
   background-color: #2e2f42;
