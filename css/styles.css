@@ -138,6 +138,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.team-section {
+  background-color: #f4f4fd;
+}
 
 /*-- Footer --*/
 .page-footer {
